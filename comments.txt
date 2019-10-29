@@ -1,0 +1,46 @@
+****************** Document Source ***************************
+
+The document came fro wikipedia . 
+Got all the links from the following wikipedia article
+https://en.wikipedia.org/wiki/Music
+
+- Took first 20 links from this article and got seperate article for that link to make our two document. 
+
+- Crated 20 document named *.ref ranging from 0 - 19 , one document for one article from the link on wiki , 
+those document where segmented using 20 to 30 lines segmentation using choi notation.
+
+- Random sample *.ref from  0 - 10 , to get 9 articles document. Combined those 9 articles to make single file 1.txt 
+- Again random sample *.ref from 10-19 to get 9 articles document . Combine those 9 articles to make another single file 2.txt
+ 
+ - Finally , composite document was made by combining these two documents , splitting them up using "choi notation" iteslf,
+ and interleaving the segments.
+
+----------------------------------------------------------------------------------------------------------------
+
+********** Scores based on Eval  **********************
+
+Got following scores : 
+ PK 	WinDiff
+0.4184 0.4920
+0.4184 0.4920
+
+which is similar to the paper. 
+
+The result is average , the idea result was 0 for perfect segmentation. 
+But our result is arround 0.5 for windDiff and 0.44 for pk which we can consider ideal for random segmentation.
+Since our segmentation is random it is giving WinDiff around 0.5  i.e 0.49 
+
+while pk is close to 0.4184 . So we are some what successfull to make random segmentation rather than the ideal segmentation 
+with our new dataset. 
+
+Also , PK will be less than winDiff same as the paper. 
+
+Hence , we were able to replicate the bayesian topic segmentation code with the new data successfully.
+
+To conclude , we could consider the result is sufficiently good enough for random segmentation.
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
